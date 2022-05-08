@@ -74,6 +74,13 @@ WSGI_APPLICATION = 'djangoProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+DATABASE_ENGINE = 'mysql'
+DATABASE_NAME = 'ecomstore'
+DATABASE_USER = 'root'
+DATABASE_PASSWORD = 'Mabr_03111933'
+DATABASE_HOST = ''
+DATABASE_PORT = ''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
