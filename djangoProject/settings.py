@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qkvl6r4b17l%3^l649ol(ex^&&tcre@u(1xp53n^u!na_ex2d$
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+# ALLOWED_HOSTS = ['127.0.0.1:8000', '[::1]']
 
 # Application definition
 
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'djangoProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': ["templates"]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
